@@ -37,7 +37,7 @@ Desenvolvi toda a pipeline de machine learning no arquivo traffic.py, incluindo:
 
 O sistema segue estas etapas principais:
 
-1. **Carregamento de Dados:**:
+1. **Carregamento de Dados**:
 - Lê imagens do diretório gtsrb organizado em subpastas por categoria.
 - Redimensiona imagens para 30x30 pixels.
 2. **Pré-processamento**: 
@@ -69,7 +69,7 @@ O sistema segue estas etapas principais:
    ```
 4. Baixe a pasta com os parâmetros:
    ```bash  
-   https://cdn.cs50.net/ai/2023/x/projects/5/gtsrb.zip
+   curl -O https://cdn.cs50.net/ai/2023/x/projects/5/gtsrb.zip
    ```
 5. Extraia a pasta:
    ```bash  
